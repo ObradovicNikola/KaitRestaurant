@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="Style/main.css">
+    <title>Kait restaurant | Home</title>
+</head>
+
+<body onresize="updateMenu()">
+    <div class="nav">
+        <div id="branding" onclick="goHome()">
+            <a href="index.html">Kait Logo</a>
+        </div>
+        <label for="toggle" onclick="dropMenu()">&#9776;</label>
+        <input type="checkbox" id="toggle" />
+        <div class="menu">
+            <box><a href="index.html" class="active">Home</a></box>
+            <box><span class="dot-nav"></span></box>
+            <box><a href="menu.html">Menu</a></box>
+            <box><span class="dot-nav"></span></box>
+            <box><a href="gallery.html">Gallery</a></box>
+            <box><span class="dot-nav"></span></box>
+            <box><a href="reservations.html">Reservations</a></box>
+            <box><span class="dot-nav"></span></box>
+            <box><a href="giftcard.html">Gift Card</a></box>
+            <box><span class="dot-nav"></span></box>
+            <box><a href="contact.html">Contact</a></box>
+        </div>
+    </div>
+
+    <section class="showcase">
+        <figure>
+            <img src="Images/showcase.jpg" alt="showcase image">
+        </figure>
+    </section>
+
+    <section class="about">
+        <p id="about_text">
+            Mickey Kapoor of Khyber took over Indika at the beginning of the year. He and the Indika team are committed
+            to maintain the legacy of Indika’s creator and architect,
+            Chef Anita Jaisinghani.
+            While Anita will continue to be the consulting chef for Indika, She will also promote
+            new and upcoming chefs to add to the
+            richness of Indika.
+        </p>
+        <hr />
+        <p id="work_time">
+            Hours of Operation:
+            <br />
+            <br />
+            CLOSED MONDAY
+            <br />
+            Tuesday 5:00-9:30
+            <br />
+            Wednesday 5:00-9:30
+            <br />
+            Thursday 5:00-9:30
+            <br />
+            Friday 5:00-10
+            <br />
+            Saturday 5:00- 10
+            <br />
+            Sunday 5:00-9:00
+            <br />
+            <br />
+            Social Hour EVERYDAY we are open
+            <br />
+            5:00 to 7:00 Bar or Patio
+        </p>
+
+        <p id="location">
+            516 Westheimer Road
+            Houston Texas 77006
+            <br />
+            <span>Valet Parking Only</span>
+        </p>
+        <hr />
+        <span id="testimonials">TESTIMONIALS</span>
+    </section>
+
+    <!-- fiksiraj footer na dno -->
+
+
+    <div class="slideshow">
+        <div class="slide fade">
+            <p>“What a great meal! I can’t believe we were able to get a reservation on a Friday night. “</p>
+            <span>- Tim W.</span>
+        </div>
+
+        <div class="slide fade">
+            <p>“If you wanna try Indian food with a twist, try Indika restaurant, amazing Indian gourmet/Indian fusion
+                food. The service and ambiance was excellent.”</p>
+            <span>- SaifAli M.</span>
+        </div>
+
+        <div class="slide fade">
+            <p>“Outstanding finish of our Houston restaurant week at Indika. I enjoyed the experience of each dish we
+                had. From the presentation to the taste, it was full of surprises. We ordered some unusual dish like
+                beet soup and fermented chickpea flour wrap. Though I’m not even a fan of beets, the soup was very
+                satisfying. Definitely worth to come back again”</p>
+            <span>- Guo H.</span>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <div style="text-align: center; margin-bottom: 30px;">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    <footer>
+        <div id="promo">
+            <p>KAIT</p>
+            <span><em>modern & innovative Indian inspired cuisine</em></span>
+        </div>
+
+        <div id="rights">
+            <p>All rights reserved Kait Restaurant</p>
+            <span><em>by <a href="https://www.linkedin.com/in/nikola-obradovi%C4%87-1b4702180/">Author</a></em></span>
+        </div>
+    </footer>
+
+    <script src="Script/main.js"></script>
+</body>
+
+</html>

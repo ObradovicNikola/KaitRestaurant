@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="Style/main.css">
+    <title>Kait restaurant | Reservations</title>
+</head>
+
+<body onresize="updateMenu()">
+    <div class="nav">
+        <div id="branding" onclick="goHome()">
+            <a href="index.html">Kait Logo</a>
+        </div>
+        <label for="toggle" onclick="dropMenu()">&#9776;</label>
+        <input type="checkbox" id="toggle" />
+        <div class="menu">
+            <box><a href="index.html">Home</a></box>
+            <box><span class="dot-nav"></span></box>
+            <box><a href="menu.html">Menu</a></box>
+            <box><span class="dot-nav"></span></box>
+            <box><a href="gallery.html">Gallery</a></box>
+            <box><span class="dot-nav"></span></box>
+            <box><a href="reservations.html" class="active">Reservations</a></box>
+            <box><span class="dot-nav"></span></box>
+            <box><a href="giftcard.html">Gift Card</a></box>
+            <box><span class="dot-nav"></span></box>
+            <box><a href="contact.html">Contact</a></box>
+        </div>
+    </div>
+
+    <div class="empty">
+    </div>
+
+    <footer>
+        <div id="promo">
+            <p>KAIT</p>
+            <span><em>modern & innovative Indian inspired cuisine</em></span>
+        </div>
+
+        <div id="rights">
+            <p>All rights reserved Kait Restaurant</p>
+            <span><em>by <a href="https://www.linkedin.com/in/nikola-obradovi%C4%87-1b4702180/">Author</a></em></span>
+        </div>
+    </footer>
+
+    <script src="Script/main.js"></script>
+</body>
+
+</html>
