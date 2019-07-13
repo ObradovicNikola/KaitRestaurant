@@ -150,7 +150,7 @@ label {
 
 /* About section */
 .about {
-    font-size: 3.2rem;
+    font-size: 2.1rem;
     width: 90%;
     margin: auto;
     text-align: center;
@@ -184,7 +184,6 @@ hr {
 .slideshow {
     position: relative;
     margin: auto;
-    background: linear-gradient(to bottom, rgba(189, 151, 49, 0.1), 20px, white);
     height: 200px;
 }
 
@@ -395,6 +394,18 @@ footer #rights {
     float: right;
 }
 
-.empty  {
+.fixedFooter {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.empty {
     margin: 722px;
+}
+
+.workInProgress p {
+    margin-left: 35px;
+    font-size: 2rem;
 }
