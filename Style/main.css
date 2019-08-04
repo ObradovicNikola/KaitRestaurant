@@ -140,11 +140,15 @@ label {
     margin: auto;
     margin-top: 20px;
     width: 90%;
+    align-content: center;
+    justify-content: center;
+    display: flex;
 }
 
 .showcase figure img {
     margin: auto;
-    width: 100%;
+    /*max-width: 800px;*/
+    width: 70%;
     box-shadow: 2px 3px rgba(189, 151, 49, 0.1);
 }
 
